@@ -122,7 +122,7 @@
           opacity="100"
           width="2"
           height="2"
-          depth="0.2"
+          depth="4"
           position="0 0.5 0" 
           rotation="0 0 0"               
           src="picture.jpeg"
@@ -181,10 +181,10 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-sphere
-        radius="0.8"
-        position= "0 0.5 0"
-        src="Rainbow-loading.png"
+          <a-icosahedron
+        radius="10"
+        position= "0 0 0"
+        src="crack.jpeg"
         env-map="#env"
         metalness="0.9"
         roughness="0.1"                  
@@ -193,10 +193,10 @@
          from: 0 0 0; 
          to: 0 360 0; 
          easing: linear; 
-         dur: 10000; 
+         dur: 10; 
          loop:true"
           >                  
-        </a-sphere>
+          </a-icosahedron>
 
         <!-- !!! END MARKER 1 !!! -->
 
