@@ -121,8 +121,8 @@
           color="white"
           opacity="100"
           width="0.2"
-          height="3"
-          depth="4"
+          height="2"
+          depth="3"
           position="0 0.5 0" 
           rotation="0 0 0"               
           src="picture.jpeg"
@@ -130,14 +130,13 @@
           alphaTest= "0.5"
           env-map="#env"
           metalness="1.0"
-          roughness="0.0"    
-          animation__position="
-         property: position; 
+          roughness="0.0"  
+         animation__rotate="
+         property: rotation; 
          from: 0 0 0; 
-         to: 0 10 0; 
-         dir: alternate;
+         to: 0 360 0; 
          easing: linear; 
-         dur: 5000; 
+         dur: 10000; 
          loop:true"   
       
           >                 
@@ -154,7 +153,8 @@
           Edit size, position, texture and animation here -->
 
         <a-sphere
-        material color="white"
+        color="white"
+        opacity="100"
         radius="0.5"
         position= "0 0 0"
         src="Dots.jpeg"
