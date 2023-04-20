@@ -48,15 +48,19 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-rectangle
-        width="10"
-        height="5"
-        position= "0 0.5 0"
-        src="Rainbow-loading.png"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation__position="
+       <a-box 
+         width="2"
+         height="2"
+         depth="2"
+         position="0 0.5 0" 
+         rotation="0 0 0"               
+         src="Rainbow-loading.png"
+         transparent="true"
+         alphaTest= "0.5"
+         env-map="#env"
+         metalness="1.0"
+         roughness="0.0"   
+         animation__position="
          property: position; 
          from: 0 0 0; 
          to: 0 4 0; 
@@ -64,15 +68,15 @@
          easing: linear; 
          dur: 5000; 
          loop:true"
-        animation__rotate="
+         animation__rotate="
          property: rotation; 
          from: 0 0 0; 
          to: 0 360 0; 
          easing: linear; 
          dur: 10000; 
-         loop:true"          
-         >                
-        </a-rectangle>
+         loop:true"       
+         >                 
+   </a-box>
 
         <!-- !!! END MARKER 1 !!! -->
 
