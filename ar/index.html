@@ -48,8 +48,8 @@
           Edit size, position, texture and animation here -->
 
        <a-box 
-         width="1"
-         height="0.5"
+         width="2"
+         height="1"
          depth="0"
          position="0 0 0" 
          rotation="0 0 0"               
@@ -88,22 +88,21 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-sphere
-        radius="0.5"
-        position= "0 5 0"
-        src="Rainbow-loading.jpeg"
-        env-map="#env"
-        metalness="0"
-        roughness="0"                  
-        animation="
-         property: rotation; 
-         from: 0 0 0; 
-         to: 0 360 0; 
-         easing: linear; 
-         dur: 10000; 
-         loop:true"
+          <a-box 
+          width="1"
+          height="1"
+          depth="0"
+          position="0 10 0" 
+          rotation="0 0 0"               
+          src="Sandclock.jpeg"
+          transparent="false"
+          alphaTest= "0.5"
+          env-map="#env"
+          metalness="0"
+          roughness="0.0"   
+          color="white"
           >                  
-        </a-sphere>
+        </a-box>
 
         <!-- !!! END MARKER 1 !!! -->
       </a-marker>
