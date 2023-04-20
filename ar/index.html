@@ -181,13 +181,15 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-          <a-pentagram
-        radius="1"
-        position= "0 0 0"
-        src="crack.jpeg"
-        env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
+          <a-box
+          color="white"
+          opacity="100"
+          width="2"
+          height="2"
+          depth="4"
+          src="crack.jpeg"
+        metalness="0.2"
+        roughness="10"                  
         animation="
          property: rotation; 
          from: 0 0 0; 
@@ -196,7 +198,7 @@
          dur: 10; 
          loop:true"
           >                  
-          </a-pentagram>
+          </a-box>
 
         <!-- !!! END MARKER 1 !!! -->
 
