@@ -219,18 +219,26 @@
           Edit size, position, texture and animation here -->
 
         <a-sphere
-        radius="0.8"
-        position= "0 0.5 0"
-        src="Rainbow-loading.png"
+        radius="2"
+        position= "0 0 0"
+        src="error.jpeg"
         env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
+        metalness="0"
+        roughness="20"                  
         animation="
          property: rotation; 
          from: 0 0 0; 
          to: 0 360 0; 
          easing: linear; 
          dur: 10000; 
+         loop:true"
+         animation__position="      
+         property: position; 
+         from: 0 0 0; 
+         to: 0 0 10; 
+         dir: alternate;
+         easing: linear; 
+         dur: 5000; 
          loop:true"
           >                  
         </a-sphere>
@@ -247,22 +255,17 @@
         <!-- This is the object <a-object> 
           Edit size, position, texture and animation here -->
 
-        <a-sphere
-        radius="0.8"
-        position= "0 0.5 0"
-        src="Rainbow-loading.png"
+        <a-box
+        height="1"
+        width="3"
+        depth="0"
+        position= "0 3 0"
+        src="unloaded.jpeg"
         env-map="#env"
-        metalness="0.9"
-        roughness="0.1"                  
-        animation="
-         property: rotation; 
-         from: 0 0 0; 
-         to: 0 360 0; 
-         easing: linear; 
-         dur: 10000; 
-         loop:true"
+        metalness="0"
+        roughness="0"                  
           >                  
-        </a-sphere>
+        </a-box>
 
         <!-- !!! END MARKER 1 !!! -->
 
