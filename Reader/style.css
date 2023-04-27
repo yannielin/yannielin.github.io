@@ -11,6 +11,7 @@ src: url('fonts/Andale Mono.ttf');
 
 
 
+
 body{
     background-color: black;
     background-size: 15%;
@@ -31,7 +32,7 @@ div.text-left{
     color: white;
     text-align: left;
     font-family: 'andale';
-    margin-right: 800px;
+    
 }
 
 div.highlight-left{
@@ -39,7 +40,7 @@ div.highlight-left{
     color: rgb(0, 255, 0);
     font-family: 'andale';
     text-align: left;
-    margin-right: 800px;
+   
 }
 
 div.bold{
@@ -54,5 +55,5 @@ div.text-right{
     color: white;
     text-align: right;
     font-family: 'andale';
-    margin-left: 800px;
+    
 }
