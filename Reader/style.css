@@ -1,0 +1,58 @@
+
+@font-face{
+    font-family: 'bluescreen';
+    src: url('fonts/Blue-Screen-Personal-Use.ttf');
+}
+
+@font-face{
+font-family: 'andale';
+src: url('fonts/Andale Mono.ttf');
+}
+
+
+
+body{
+    background-color: black;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: blue;
+}
+
+div.title{
+    font-size: 90px;
+    font-family:'bluescreen';
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+div.text-left{
+    font-size: 14px;
+    color: white;
+    text-align: left;
+    font-family: 'andale';
+    margin-right: 800px;
+}
+
+div.highlight-left{
+    font-size: 14px;
+    color: rgb(0, 255, 0);
+    font-family: 'andale';
+    text-align: left;
+    margin-right: 800px;
+}
+
+div.bold{
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+    font-family: 'andale';
+    text-align: left;
+}
+
+div.text-right{
+    font-size: 14px;
+    color: white;
+    text-align: right;
+    font-family: 'andale';
+    margin-left: 800px;
+}
