@@ -9,6 +9,15 @@ font-family: 'andale';
 src: url('fonts/Andale-Mono.otf');
 }
 
+@font-face {
+    font-family: 'andale_monoregular';
+    src: url('andale-mono-webfont.woff2') format('woff2'),
+         url('andale-mono-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 
@@ -39,7 +48,7 @@ div.text-left{
 div.highlight-left{
     font-size: 14px;
     color: rgb(0, 255, 0);
-    font-family: 'andale';
+    font-family: 'andale_monoregular';
     text-align: left;
    
 }
@@ -49,7 +58,7 @@ div.quote{
     font-size: 14px;
     color: rgb(0, 255, 0);
     text-align: centre;
-    font-family: 'andale';
+    font-family: 'andale_monoregular';
     margin-left: 10px;
     margin-right: 10px;
     text-align-last: center;
@@ -59,7 +68,7 @@ div.quote2{
     font-size: 30px;
     color: rgb(0, 255, 0);
     text-align: centre;
-    font-family: 'andale';
+    font-family: 'andale_monoregular';
     margin-left: 150px;
     margin-right: 150px;
     text-align-last: right;
