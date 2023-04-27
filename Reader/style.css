@@ -32,6 +32,7 @@ div.text-left{
     color: white;
     text-align: left;
     font-family: 'andale';
+    margin-right: 100px;
     
 }
 
@@ -43,17 +44,23 @@ div.highlight-left{
    
 }
 
-div.bold{
-    font-size: 30px;
+
+div.quote{
+    font-size: 14px;
     color: rgb(0, 255, 0);
+    text-align: centre;
     font-family: 'andale';
-    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align-last: center;
 }
 
-div.text-right{
-    font-size: 14px;
-    color: white;
-    text-align: right;
+div.quote2{
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+    text-align: centre;
     font-family: 'andale';
-    
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align-last: right;
 }
