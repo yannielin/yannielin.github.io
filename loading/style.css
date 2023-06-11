@@ -39,6 +39,18 @@ div.row2{
     vertical-align: middle;
 }
 
+div.row3{
+    display:flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: andale;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 100px;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
 div.col{
     width: 33.333%;
     height: 240px;
@@ -55,7 +67,8 @@ div.col1{
 
 div.col2{
     width: 33.333%;
-    height: 100px
+    height: 100px;
+    text-align: center;
 }
 
 div.zoom{
@@ -124,7 +137,7 @@ div.hero {
   }
 
   div.blur img {
-    filter: blur(15px);
+    filter: blur(30px);
     transition: 2s;
   }
   
